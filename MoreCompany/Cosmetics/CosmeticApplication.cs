@@ -48,7 +48,8 @@ namespace MoreCompany.Cosmetics
         {
             foreach (var spawnedCosmetic in spawnedCosmetics)
             {
-                spawnedCosmetic?.gameObject.SetActive(false);
+                if(!spawnedCosmetic) continue;
+                spawnedCosmetic.gameObject.SetActive(false);
             }
         }
 
