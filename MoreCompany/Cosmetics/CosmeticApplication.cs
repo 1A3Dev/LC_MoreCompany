@@ -83,7 +83,8 @@ namespace MoreCompany.Cosmetics
         {
             foreach (var spawnedCosmetic in spawnedCosmetics)
             {
-                GameObject.Destroy(spawnedCosmetic?.gameObject);
+                if(!spawnedCosmetic) continue;
+                GameObject.Destroy(spawnedCosmetic.gameObject);
             }
             spawnedCosmetics.Clear();
             spawnedCosmeticsIds.Clear();
