@@ -22,7 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ThunderstoreBuildCopyPath Include="$(TargetPath)" Destination="BepInEx/plugins/$(ProjectName)/" />
+        <ThunderstoreBuildCopyPath Include="$(TargetPath)" Destination="BepInEx/plugins/" />
     </ItemGroup>
 
     <ItemGroup>
