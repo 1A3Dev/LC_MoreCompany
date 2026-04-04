@@ -5,7 +5,9 @@
 
 ### Information
 
-This is a forked version of [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/) but with support for the public beta!
+This is a forked version of [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/) with added support for the public beta.
+
+Disable the original version before installing this fork. Keeping it installed (but disabled) ensures you receive update notifications so you know when to switch back to it.
 
 ### Support
 
